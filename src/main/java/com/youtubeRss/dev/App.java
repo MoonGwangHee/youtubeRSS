@@ -5,13 +5,10 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 
 public class App 
 {
-    public static void main( String[] args )
-    {
+    public static void main( String[] args ) {
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
 
-        System.out.println(">>> 스프링 컨테이너 구동 완료!!!");
-
-
+        System.out.println(">>> RSS 수집기 서버 가동 중... (종료하려면 Ctrl+C)");
 
 
     }
